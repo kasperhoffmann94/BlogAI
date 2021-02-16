@@ -1,1 +1,1 @@
-Sitemap: https://kasperhoffmann94.github.io/BlogAI/sitemap.xml
+Sitemap: https://kasperhoffmann94.github.io/BlogAIKasperHoffmann/sitemap.xml
