@@ -1,0 +1,75 @@
+Opgave 1:
+
+Loss metric, arkitektur valg.
+
+Opgave 2:
+1.	Name five areas where deep learning is now the best in the world.
+•	NLP
+•	Image Recognition
+•	Medicine (Finding anomalies in radiology images, including CT, MRI, and X-ray images; counting features in pathology slides; measuring features in ultrasounds; diagnosing diabetic retinopathy)
+•	Playing games: Chess, Go, most Atari video games, and many real-time strategy games
+•	Robotics: Handling objects that are challenging to locate (e.g., transparent, shiny, lacking texture)
+2.	Based on the book of the same name, what are the requirements for parallel distributed processing (PDP)?
+ 
+3.	What were the two theoretical misunderstandings that held back the field of neural networks?
+•	Et ekstra lag af neurons er ikke nok, til at tillade matematiske funktioner
+•	Den kan i starten ikke klare XOR 
+4.	What is a GPU?
+•	Graphics processing unit / Grafik kort en processor i computeren der kan håndtere mange tusinde opgaver på samme tid
+5.	Why is it hard to use a traditional computer program to recognize images in a photo?
+•	Hvis man selv skulle gøre det, ville man skulle lave en masse bitte bittesmå steps for at kunne genkende billedet, og det ville være næsten umuligt
+6.	What did Samuel mean by "weight assignment"?
+•	Det er det som modellen tager højde for
+7.	What term do we normally use in deep learning for what Samuel called "weights"?
+•	Model parameters
+8.	Draw a picture that summarizes Samuel's view of a machine learning model.
+ 
+9.	Why is it hard to understand why a deep learning model makes a particular prediction?
+•	Det er svært at vide præcis hvad der ligger i lagene
+•	Og en model har ikke de menneskelige parametre
+10.	What is the name of the theorem that shows that a neural network can solve any mathematical problem to any level of accuracy?
+•	Universal approximation theorem
+11.	What do you need in order to train a model?
+•	Labels og data og weights
+12.	How could a feedback loop impact the rollout of a predictive policing model?
+•	Hvis ender I et positivt feedback loop, kan det forstærke forudsigelsen, lidt ligesom med corona, jo flere du tester jo flere positive, er der også
+13.	Do we always have to use 224×224-pixel images with the cat recognition model?
+•	Nej, men det er en standard for historiske grunde, større resolution giver bedre resultat og mindre modsat 
+14.	What is the difference between classification and regression?
+•	Classification forudsiger klasse eller categorier og regression forudsiger numeriske værdier
+Opgave 3:
+15.	What is a validation set? What is a test set? Why do we need them?
+•	Validation set bliver brugt til at validere om den predicter rigtigt, så det er ud over det du træner med. 
+1.	For at være sikker på vi ikke har overfitting og at vi får det ønskede resultat, 
+•	Test set er lidt det samme som validation set men det skal holdes fra os selv. Det er det sidste man evaluere med.
+1.	Lidt det samme men mere real world, tjekker at du ikke har lavet en lille bubble og også for at vi ikke har en ide om hvad resultatet skal være. 
+16.	What will fastai do if you don't provide a validation set?
+•	Den defaulter selv til at udvælge et validation set (20 %)
+17.	Can we always use a random sample for a validation set? Why or why not?
+•	Nej, man vil gerne teste op imod det samme validation set så man sikre at få et indblik i hvordan træningen går.
+18.	What is overfitting? Provide an example.
+•	Overfitting er når ens model 
+19.	What is a metric? How does it differ from "loss"?
+20.	How can pretrained models help?
+21.	What is the "head" of a model?
+22.	What kinds of features do the early layers of a CNN find? How about the later layers?
+23.	Are image models only useful for photos?
+24.	What is an "architecture"?
+25.	What is segmentation?
+26.	What is y_range used for? When do we need it?
+27.	What are "hyperparameters"?
+28.	What's the best way to avoid failures when using AI in an organization?
+29.	Complete the Jupyter Notebook online appendix. (use the file app_jupyter.ipynb in Gradient or get it from github: https://oreil.ly/9uPZe)
+30.	Why is a GPU useful for deep learning? How is a CPU different, and why is it less effective for deep learning?
+31.	Try to think of three areas where feedback loops might impact the use of machine learning. See if you can find documented examples of that happening in practice.
+
+Opgave 4:
+Decision tree = machine learning
+ 
+Målet med machine learning er predictions 
+Eksempel på overfitting
+Derved er det vigtigt at have test data
+ 
+ 
+ 
+ 
