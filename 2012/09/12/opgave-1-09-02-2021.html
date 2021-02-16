@@ -1,0 +1,76 @@
+<p>Opgave 1:</p>
+
+<p>Loss metric, arkitektur valg.</p>
+
+<p>Opgave 2:</p>
+<ol>
+  <li>Name five areas where deep learning is now the best in the world.
+•	NLP
+•	Image Recognition
+•	Medicine (Finding anomalies in radiology images, including CT, MRI, and X-ray images; counting features in pathology slides; measuring features in ultrasounds; diagnosing diabetic retinopathy)
+•	Playing games: Chess, Go, most Atari video games, and many real-time strategy games
+•	Robotics: Handling objects that are challenging to locate (e.g., transparent, shiny, lacking texture)</li>
+  <li>
+    <p>Based on the book of the same name, what are the requirements for parallel distributed processing (PDP)?</p>
+  </li>
+  <li>What were the two theoretical misunderstandings that held back the field of neural networks?
+•	Et ekstra lag af neurons er ikke nok, til at tillade matematiske funktioner
+•	Den kan i starten ikke klare XOR</li>
+  <li>What is a GPU?
+•	Graphics processing unit / Grafik kort en processor i computeren der kan håndtere mange tusinde opgaver på samme tid</li>
+  <li>Why is it hard to use a traditional computer program to recognize images in a photo?
+•	Hvis man selv skulle gøre det, ville man skulle lave en masse bitte bittesmå steps for at kunne genkende billedet, og det ville være næsten umuligt</li>
+  <li>What did Samuel mean by “weight assignment”?
+•	Det er det som modellen tager højde for</li>
+  <li>What term do we normally use in deep learning for what Samuel called “weights”?
+•	Model parameters</li>
+  <li>
+    <p>Draw a picture that summarizes Samuel’s view of a machine learning model.</p>
+  </li>
+  <li>Why is it hard to understand why a deep learning model makes a particular prediction?
+•	Det er svært at vide præcis hvad der ligger i lagene
+•	Og en model har ikke de menneskelige parametre</li>
+  <li>What is the name of the theorem that shows that a neural network can solve any mathematical problem to any level of accuracy?
+•	Universal approximation theorem</li>
+  <li>What do you need in order to train a model?
+•	Labels og data og weights</li>
+  <li>How could a feedback loop impact the rollout of a predictive policing model?
+•	Hvis ender I et positivt feedback loop, kan det forstærke forudsigelsen, lidt ligesom med corona, jo flere du tester jo flere positive, er der også</li>
+  <li>Do we always have to use 224×224-pixel images with the cat recognition model?
+•	Nej, men det er en standard for historiske grunde, større resolution giver bedre resultat og mindre modsat</li>
+  <li>What is the difference between classification and regression?
+•	Classification forudsiger klasse eller categorier og regression forudsiger numeriske værdier
+Opgave 3:</li>
+  <li>What is a validation set? What is a test set? Why do we need them?
+•	Validation set bliver brugt til at validere om den predicter rigtigt, så det er ud over det du træner med.</li>
+  <li>For at være sikker på vi ikke har overfitting og at vi får det ønskede resultat, 
+•	Test set er lidt det samme som validation set men det skal holdes fra os selv. Det er det sidste man evaluere med.</li>
+  <li>Lidt det samme men mere real world, tjekker at du ikke har lavet en lille bubble og også for at vi ikke har en ide om hvad resultatet skal være.</li>
+  <li>What will fastai do if you don’t provide a validation set?
+•	Den defaulter selv til at udvælge et validation set (20 %)</li>
+  <li>Can we always use a random sample for a validation set? Why or why not?
+•	Nej, man vil gerne teste op imod det samme validation set så man sikre at få et indblik i hvordan træningen går.</li>
+  <li>What is overfitting? Provide an example.
+•	Overfitting er når ens model</li>
+  <li>What is a metric? How does it differ from “loss”?</li>
+  <li>How can pretrained models help?</li>
+  <li>What is the “head” of a model?</li>
+  <li>What kinds of features do the early layers of a CNN find? How about the later layers?</li>
+  <li>Are image models only useful for photos?</li>
+  <li>What is an “architecture”?</li>
+  <li>What is segmentation?</li>
+  <li>What is y_range used for? When do we need it?</li>
+  <li>What are “hyperparameters”?</li>
+  <li>What’s the best way to avoid failures when using AI in an organization?</li>
+  <li>Complete the Jupyter Notebook online appendix. (use the file app_jupyter.ipynb in Gradient or get it from github: https://oreil.ly/9uPZe)</li>
+  <li>Why is a GPU useful for deep learning? How is a CPU different, and why is it less effective for deep learning?</li>
+  <li>Try to think of three areas where feedback loops might impact the use of machine learning. See if you can find documented examples of that happening in practice.</li>
+</ol>
+
+<p>Opgave 4:
+Decision tree = machine learning</p>
+
+<p>Målet med machine learning er predictions 
+Eksempel på overfitting
+Derved er det vigtigt at have test data</p>
+
